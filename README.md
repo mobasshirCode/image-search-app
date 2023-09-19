@@ -1,5 +1,6 @@
 # Image Search App
-This Image Search App uses API and is made with the help of HTML , CSS and Vanilla JS.
+This Image Search App uses API and is made with the help of HTML , CSS and Vanilla Js.<br>
+Search unlimited copyright free images in HD quality.
 <br>
 It is a responsive app optimised for both desktop and mobile phones.
 <br> <br>
