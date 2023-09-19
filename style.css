@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(26, 8, 90);
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  margin: 80px auto 40px;
+  font-weight: 600;
+}
+
+#search-form {
+  width: 90%;
+  max-width: 600px;
+  height: 65px;
+  background: rgb(77, 77, 190);
+  border-radius: 15px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchbox {
+  flex: 1;
+  height: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0 25px;
+  color: #fff;
+  font-size: 20px;
+}
+
+#btn {
+  padding: 0 40px;
+  height: 100%;
+  font-size: 18px;
+  border-radius: 0 15px 15px 0;
+  border: 0;
+  outline: 0;
+  color: white;
+  background: orangered;
+  cursor: pointer;
+}
+
+#more {
+  padding: 10px 20px;
+  border: 0;
+  outline: 0;
+  background: orangered;
+  color: #fff;
+  border-radius: 5px;
+  margin: 20px auto 100px;
+  cursor: pointer;
+  display: none;
+}
+
+#search-result {
+  margin-left: 60px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#search-result img {
+  /* border: 1px solid black; */
+  object-fit: cover;
+  margin: 25px;
+  border-radius: 5px;
+  width: 25vw;
+  height: 25vw;
+}
+
+@media screen and (max-width: 600px) {
+  #search-form {
+    width: 95%;
+    max-width: 320px;
+    height: 45px;
+    margin: auto;
+  }
+
+  #searchbox {
+    font-size: 16px;
+    padding: 0;
+    padding-left: 25px;
+  }
+
+  #btn {
+    font-size: 15px;
+    width: 27%;
+    padding: 0;
+  }
+
+  #search-result {
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #search-result img {
+    border-radius: 4px;
+    object-fit: cover;
+    margin: 12px;
+    border-radius: 5px;
+    width: 38vw;
+    height: 38vw;
+  }
+}
