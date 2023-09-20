@@ -8,7 +8,7 @@
 }
 
 body {
-  background: rgb(26, 8, 90);
+  background: linear-gradient(135deg,#200538,#0f203a);
   color: #fff;
 }
 
@@ -22,7 +22,7 @@ h1 {
   width: 90%;
   max-width: 600px;
   height: 65px;
-  background: rgb(77, 77, 190);
+  background: #e8d2fc;
   border-radius: 15px;
   margin: auto;
   display: flex;
@@ -49,7 +49,7 @@ h1 {
   border: 0;
   outline: 0;
   color: white;
-  background: orangered;
+  background: linear-gradient(#9418fd,#571094);
   cursor: pointer;
 }
 
@@ -57,7 +57,7 @@ h1 {
   padding: 10px 20px;
   border: 0;
   outline: 0;
-  background: orangered;
+  background: linear-gradient(#9418fd,#571094);
   color: #fff;
   border-radius: 5px;
   margin: 20px auto 100px;
