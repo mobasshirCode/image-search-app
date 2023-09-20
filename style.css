@@ -76,16 +76,14 @@ h1 {
 
 #search-result img {
   border: 1px solid #efeef0;
+  box-shadow: 1px 1px 5px #9418fd;
   object-fit: cover;
   margin: 25px;
   border-radius: 5px;
   width: 25vw;
   height: 25vw;
 }
-#search-result img:hover {
-  box-shadow: 1px 1px 8px #9418fd;
-  transform: scale(1.05);
-}
+
 @media screen and (max-width: 600px) {
   #search-form {
     width: 80%;
